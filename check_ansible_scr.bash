@@ -28,6 +28,7 @@ read -p "Enter what a playbook i will show ": np
 
 p1=`cat ~/list.txt | head -n$np | tail -n1`
 p=`cat -n ~/list.txt | grep -E $np`
+rm ~/list.txt
 
 read -p "Enter what kind of file i will show [1-file; 2-defaults; 3-tasks; 4-handlers]": x
 
