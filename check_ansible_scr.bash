@@ -20,7 +20,7 @@ checkpassword()
 }
 
 checkpassword $a
-read -p "Input ur ROLE's dir ...": z
+read -p "Input ur ROLE's dir /etc/ansible/": z
 
 x=`ls /etc/ansible/$z > ~/list.txt`
 cat -n ~/list.txt
