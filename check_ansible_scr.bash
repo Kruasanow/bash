@@ -6,7 +6,6 @@ echo "."
 
 usern=`whoami`
 read -p "Enter a username": a
-echo "$usern and $a"
 
 checkpassword()
 {
